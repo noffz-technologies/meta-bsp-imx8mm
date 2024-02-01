@@ -14,7 +14,7 @@ Define the following environment variables:
 
 |Description|Command Line|
 |---|---|
-|CompuLab branch name|export CPL_BRANCH=iot-gate-imx8-r3.2-i2c34-enabled|
+|CompuLab branch name|export CPL_BRANCH=iot-gate-imx8-r3.2-i2c34-enabled-fix|
 |NXP release name|export NXP_BRANCH=lf-5.15.y|
 |NXP release name|export NXP_RELEASE=fa6c3168595c02bd9d5366fcc28c9e7304947a3d|
 ## Prerequisites
@@ -27,7 +27,7 @@ cd imx8mm
 </pre>
 * Download CompuLab BSP
 <pre>
-git clone -b ${CPL_BRANCH} https://github.com/compulab-yokneam/meta-bsp-imx8mm.git
+git clone -b ${CPL_BRANCH} https://github.com/noffz-technologies/meta-bsp-imx8mm.git
 export PATCHES=$(pwd)/meta-bsp-imx8mm/recipes-kernel/linux/compulab/imx8mm
 </pre>
 
